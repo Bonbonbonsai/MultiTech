@@ -30,11 +30,11 @@ body{
 }
 .sun{
 	top: 40px;
-	right: 400px;
+	right: 200px;
 }
 .sun_radius-1{
-	width: 300px;
-	height: 300px;
+	width: 150px;
+	height: 150px;
 	background-color: hsl(30,100%,50%,0.7);
 	transform: rotate(0deg);
 	animation: sun_radius_1 2s infinite linear;
@@ -44,8 +44,8 @@ body{
 	to{transform: rotate(360deg)}
 }
 .sun_radius-2{
-	width: 300px;
-	height: 300px;
+	width: 150px;
+	height: 150px;
 	background-color: hsl(25,100%,50%,0.7);
 	transform: rotate(45deg);
 	animation: sun_radius_2 2s infinite linear;
@@ -55,8 +55,8 @@ body{
 	to{transform: rotate(405deg)}
 }
 .sun_circle{
-	width: 300px;
-	height: 300px;
+	width: 150px;
+	height: 150px;
 	background-color: hsl(70,100%,50%,0.9);
 	animation: sun_circle .3s infinite alternate;
 }
